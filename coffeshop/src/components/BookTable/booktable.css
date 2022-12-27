@@ -1,0 +1,40 @@
+:root {
+  --main_color: #362706;
+  --secondary_color: #464e2e;
+  --third_color: #acb992;
+  --fourt_color: #e9e5d6;
+}
+.about_coffee {
+  background: url(./coffe_beans_bg.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  background-blend-mode: multiply;
+  opacity: 80%;
+  margin-bottom: 20vh;
+}
+.book_a_table_title {
+  font-weight: 900;
+  color: var(--fourt_color);
+}
+.book_btn {
+  border-radius: 0;
+  color: var(--fourt_color);
+  background-color: var(--secondary_color);
+}
+.forma {
+  padding-top: 20vh;
+}
+.sub_text2 {
+  font-size: 11px;
+  font-style: italic;
+  color: var(--fourt_color);
+  padding-top: 5vh;
+}
+.our {
+  border-bottom: 2px solid var(--secondary_color);
+}
+@media only screen and (max-width: 575px) {
+}

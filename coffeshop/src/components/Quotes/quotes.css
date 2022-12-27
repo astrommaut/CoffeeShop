@@ -1,0 +1,17 @@
+:root {
+  --main_color: #362706;
+  --secondary_color: #464e2e;
+  --third_color: #acb992;
+  --fourt_color: #e9e5d6;
+}
+.quotes{
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.quote_icon{
+ color: var(--secondary_color);
+}
+.blockquote-footer{
+  color: var(--secondary_color);
+  font-family: "Munich", sans-serif;
+}
